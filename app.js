@@ -22,7 +22,7 @@ const game = ()=> {
         const hands = document.querySelectorAll('.hands img');
 
         hands.forEach(hand =>{
-            hand.addEventListener('animationed', function(){
+            hand.addEventListener('animationend', function(){
                 this.style.animation = '';
             })
         })
